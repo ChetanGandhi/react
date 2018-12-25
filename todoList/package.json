@@ -1,0 +1,19 @@
+{
+    "name": "TODO List",
+    "dependencies": {
+        "react": "16.4.0",
+        "react-dom": "16.4.0"
+    },
+    "devDependencies": {
+        "webpack": "^2.0",
+        "babel-core": "^6.0",
+        "babel-loader": "^7.0",
+        "babel-preset-env": "*",
+        "babel-preset-react": "*",
+        "copy-webpack-plugin": "4.0.1"
+    },
+    "scripts": {
+        "build": "webpack",
+        "watch": "webpack -w"
+    }
+}
